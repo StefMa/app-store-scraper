@@ -1,7 +1,7 @@
 # app-store-scraper
 scrape data from the itunes app store
 
-Go scraper to get data from the iTunes/Mac App Store via the [iTunes Search API](https://performance-partners.apple.com/search-api.
+Go scraper to get data from the iTunes/Mac App Store via the [iTunes Search API](https://performance-partners.apple.com/search-api).
 The goal is to provide an interface as close as possible to the [app-store-scraper Node.js module](https://github.com/facundoolano/app-store-scraper).
 
 ## Installation
