@@ -36,7 +36,7 @@ func TestAppSucess(t *testing.T) {
 	if got.TrackViewURL != "https://apps.apple.com/de/app/hvv-hop/id1400408720?uo=4" {
 		t.Errorf("Got trackViewUrl %s, but want %s", got.TrackViewURL, "https://apps.apple.com/us/app/hvv-hop/id1400408720?uo=4")
 	}
-	if got.ArtworkURL512 != "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/93/bc/62/93bc6267-e6be-d901-ae71-d137678e5902/AppIcon-0-1x_U007ephone-0-85-220.png/512x512bb.jpg" {
-		t.Errorf("Got trackName %s, but want %s", got.ArtworkURL512, "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/93/bc/62/93bc6267-e6be-d901-ae71-d137678e5902/AppIcon-0-1x_U007ephone-0-85-220.png/512x512bb.jpg")
+	if got.ArtworkURL512 != "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/43/9e/16/439e168f-1f8b-f172-6c36-d931238d0154/AppIcon-0-1x_U007ephone-0-85-220.png/512x512bb.jpg" {
+		t.Errorf("Got trackName %s, but want %s", got.ArtworkURL512, "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/43/9e/16/439e168f-1f8b-f172-6c36-d931238d0154/AppIcon-0-1x_U007ephone-0-85-220.png/512x512bb.jpg")
 	}
 }
